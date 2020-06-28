@@ -21,6 +21,7 @@
   "homepage": "https://github.com/beyondscreen/node-rpi-ws281x-native",
   "bugs": "https://github.com/beyondscreen/node-rpi-ws281x-native/issues",
   "license": "MIT",
+  "scripts" : { "preinstall" : "git submodule update --init" },
   "dependencies": {
     "node-addon-api": "^3.0.0"
   },
